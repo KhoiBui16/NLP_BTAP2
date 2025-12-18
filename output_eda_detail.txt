@@ -1,0 +1,49 @@
+Đang phân tích dữ liệu 1.txt và 2.txt...                                                                                                                                                                   
+                                                                                                                                                                                                           
+============================================================
+KẾT QUẢ EDA TỐI ƯU (COPY VÀO MODEL.PY)
+============================================================
+
+# TẬP TRUNG VÀO ĐỘ DÀI CHUẨN (10-17) sau khi eda data
+LENGTH_OPTS = [10, 11, 12, 13, 14, 15, 16, 17]
+
+# STARTERS: DATA-DRIVEN CHUẨN theo phân bố thực tế từ eda
+STARTERS_LM1 = [
+    (['i', 'am'], 0.15),
+    (['i', 'have'], 0.15),
+    (['i', 'hate'], 0.1),
+    (['this', 'app'], 0.1),
+    (['i', 'miss'], 0.1),
+    (['*', '*'], 0.1),
+    (['this', 'is'], 0.1),
+    (['<START>', '<START>'], 0.1),
+]
+
+STARTERS_LM2 = [
+STARTERS_LM2 = [
+    (['i', 'love'], 0.15),
+    (['this', 'app'], 0.15),
+    (['good', 'morning'], 0.15),
+    (['happy', 'mother`s'], 0.15),
+    (['http', ':'], 0.15),
+    (['great', 'app'], 0.15),
+    (['this', 'is'], 0.1),
+    (['<START>', '<START>'], 0.1),
+]
+
+# KEYWORDS (BỘ DATA-DRIVEN XỊN)
+KEYWORDS_LM1 = {
+    "access", "awful", "basic", "bored", "boring", "deleted", "disappointed", "hate",
+    "horrible", "hurts", "kept", "losing", "mad", "policy", "poor", "privacy",
+    "reply", "sad", "sadly", "serious", "shame", "sick", "sore", "sorry",
+    "stand", "suck", "sucked", "sucks", "uninstalled", "upset", "warner", "waste",
+    "won't", "wont", "worse",
+}
+
+KEYWORDS_LM2 = {
+    "activities", "allows", "amazing", "awesome", "beautiful", "calendars", "cheers", "clean",
+    "colors", "congrats", "congratulations", "customization", "cute", "devs", "favorite", "helps",
+    "hopefully", "interesting", "keeping", "knew", "learning", "lovely", "loving", "moms",
+    "mothers", "platform", "special", "suggestion", "sweet", "wars", "welcome", "wonderful",
+    "worry", "www", "yay",
+}

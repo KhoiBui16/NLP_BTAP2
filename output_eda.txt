@@ -1,0 +1,5 @@
+--- TOP KEYWORDS CHO FIRST LM (TIÊU CỰC) ---                                                                                                                                                               
+['sad', 'sorry', 'hate', 'miss', "doesn't", 'sick', 'sync', 'why', 'poor', 'sucks', 'hurts', 'find', 'hard', 'bored', 'bad', 'ugh', 'ads', 'disappointed', 'cannot', 'access', 'lost', 'worse', 'missing', 'stupid', 'boring', 'useless', 'deleted', 'worst', 'tired', 'email']
+
+--- TOP KEYWORDS CHO SECOND LM (TÍCH CỰC) ---
+['love', 'great', 'good', 'happy', 'thanks', 'best', 'awesome', 'nice', 'amazing', 'thank', 'wish', 'mother`s', 'mothers', 'fun', 'hope', 'yay', 'easy', 'cool', 'helps', 'cute', 'beautiful', 'track', 'helpful', 'things', 'enjoy', 'perfect', 'wonderful', 'far', 'glad', 'better']

@@ -1,0 +1,187 @@
+============================================================
+EDA FOR LABEL 1 (NEGATIVE / COMPLAINT)
+============================================================
+
+Total sentences: 1554
+
+--- Sentence Length ---
+Min: 1
+Max: 169
+Mean: 21.78
+Median: 16.0
+Suggested length range: 9 - 30
+
+--- Sentence Ending Punctuation ---
+.: 454 (29.2%)
+!: 181 (11.6%)
+?: 61 (3.9%)
+...: 50 (3.2%)
+
+--- Top Sentence Starters (1 token) ---
+i: 221
+i`m: 39
+my: 36
+the: 36
+this: 31
+not: 25
+is: 24
+it: 21
+im: 18
+oh: 18
+
+--- Top Sentence Starters (2 tokens) ---
+i am: 16
+i have: 16
+i hate: 15
+this app: 13
+i miss: 12
+this is: 11
+i had: 8
+the app: 8
+i was: 7
+i really: 7
+
+--- Top Unigrams ---
+. 1549
+i 1205
+the 1019
+to 900
+, 678
+a 541
+it 531
+and 493
+my 461
+is 383
+for 347
+app 307
+of 303
+! 301
+this 293
+
+--- Top Bigrams ---
+. i: 159
+the app: 104
+this app: 94
+i have: 81
+, i: 73
+, but: 72
+in the: 68
+i am: 60
+to be: 58
+of the: 52
+
+--- Top Trigrams ---
+i have to: 14
+i have a: 13
+the app .: 13
+this app .: 12
+the pro version: 11
+, but i: 10
+going to be: 10
+. i have: 10
+i need to: 10
+for me .: 10
+
+--- Entropy ---
+Unigram entropy: 9.35
+Bigram entropy: 13.75
+Trigram entropy: 14.73
+
+[Interpretation]
+- Low entropy → repetitive / rigid
+- High entropy → noisy / incoherent
+- Goal: medium entropy (style + fluency)
+
+============================================================
+EDA FOR LABEL 2 (POSITIVE / PRAISE)
+============================================================
+
+Total sentences: 1730
+
+--- Sentence Length ---
+Min: 1
+Max: 319
+Mean: 20.87
+Median: 16.0
+Suggested length range: 8 - 30
+
+--- Sentence Ending Punctuation ---
+.: 434 (25.1%)
+!: 334 (19.3%)
+?: 40 (2.3%)
+...: 31 (1.8%)
+
+--- Top Sentence Starters (1 token) ---
+i: 146
+good: 52
+happy: 45
+this: 43
+great: 37
+the: 32
+just: 27
+thanks: 27
+very: 27
+it: 25
+
+--- Top Sentence Starters (2 tokens) ---
+i love: 31
+this app: 21
+good morning: 19
+happy mother`s: 18
+great app: 18
+this is: 13
+i like: 13
+thank you: 13
+good app: 11
+had a: 10
+
+--- Top Unigrams ---
+. 1492
+i 1039
+the 1015
+to 962
+, 848
+! 724
+and 682
+a 673
+it 578
+you 452
+for 427
+my 411
+is 411
+of 368
+app 327
+
+--- Top Bigrams ---
+. i: 158
+this app: 110
+i love: 86
+, i: 67
+, and: 67
+of the: 65
+app .: 63
+for the: 60
+in the: 58
+it is: 58
+
+--- Top Trigrams ---
+happy mother`s day: 30
+this app is: 26
+this app .: 20
+happy mothers day: 20
+easy to use: 20
+. i love: 20
+love this app: 18
+i wish i: 16
+wish i could: 16
+great app .: 15
+
+--- Entropy ---
+Unigram entropy: 9.29
+Bigram entropy: 13.69
+Trigram entropy: 14.74
+
+[Interpretation]
+- Low entropy → repetitive / rigid
+- High entropy → noisy / incoherent
+- Goal: medium entropy (style + fluency)
